@@ -1,9 +1,9 @@
 package praktek03;
 
 public class Komputer {
-    String merk;
-    String processor;
-    String memory;
+    private String merk;
+    private String processor;
+    private String memory;
     
     void cetakInfo(){
         System.out.println("Merk        \t: "+merk+"\n"+
