@@ -17,5 +17,16 @@ public class KomputerAksi {
         System.out.println(a.getProcessor());
         System.out.print("Memorynya     \t: ");
         System.out.println(a.getMemory());
+        
+        Laptop l = new Laptop();
+        System.out.println("================================");
+        l.setMerk("APPLE");
+        l.setProcessor("intel core i7");
+        l.setMemory("8 GB");
+        l.setLaptop("Macbook Pro");
+        
+        l.cetakInfo();
+        System.out.println("Jenis       \t: "+l.getLaptop());
+        l.throttle();
     }
 }
